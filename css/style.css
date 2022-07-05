@@ -28,8 +28,20 @@ section{
     background-image: linear-gradient( pink, purple);
     color: white;
     font-size: bold;
+
+}
+.half p{
+    margin-bottom: 60px;
 }
 .half img{
     width: 100%;
     margin-top: 2%;
+}
+
+.dream-big{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 20px;
+
 }
