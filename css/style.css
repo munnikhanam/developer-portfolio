@@ -4,14 +4,18 @@ body{
 }
 h1{
     font-weight: 500;
-    font-size: 50px;
+    font-size: 35px;
     
 }
-h1 span{
+h2{
+    font-size: 30px;
+}
+.purple-color{
     color: blueviolet;
 }
-section{
+.flexible-container{
     display: flex;
+    
 }
 .top-banner{
     background-image: url(/images/top-banner.png);
@@ -44,4 +48,30 @@ section{
     background-position: right;
     margin: 20px;
 
+}
+.experience-area{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 120px;
+    margin-bottom: 50px;
+    
+}
+.experience{
+width: 40%;
+margin-left: 5%;
+box-shadow: 10px 10px 40px gray;
+padding-left: 10px;
+border-radius: 10px;
+}
+#first-border{
+    border-left: 10px solid purple;
+
+}
+#second-border{
+    border-left: 10px solid blue;
+}
+footer p{
+    text-align: center;
+    margin: 20px 0;
 }
